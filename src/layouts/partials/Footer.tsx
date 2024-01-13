@@ -1,10 +1,11 @@
 export default function Footer() {
   return (
     <>
-      <footer>
-        <div>
+      <footer className="bg-black">
+        <div></div>
+        <div className="bg-white">
           <div
-            className="mt-28 pb-28 bg-write"
+            className="pb-28"
             aria-hidden="true"
           >
             <div style={{marginTop: "-23px"}}>
