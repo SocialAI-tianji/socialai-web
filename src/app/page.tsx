@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 export default function Home() {
   return (
     <div className='bg-black'>
@@ -16,7 +18,7 @@ export default function Home() {
               loop
             >
               <source
-                src="/video/KleeWP.mp4"
+                src={`${basePath}/video/KleeWP.mp4`}
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -97,7 +99,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/team-hero-for-blog.jpg"}
+                      <img alt='' src={`${basePath}/images/team-hero-for-blog.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -113,7 +115,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/gpt-store-r3.png"}
+                      <img alt='' src={`${basePath}/images/gpt-store-r3.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -129,7 +131,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/openai-and-journalism.jpg"}
+                      <img alt='' src={`${basePath}/images/openai-and-journalism.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -145,7 +147,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/superalignment-fast-grants.jpg"}
+                      <img alt='' src={`${basePath}/images/superalignment-fast-grants.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -176,7 +178,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img alt="" src={"/images/stangel-2022-0052.jpg"}
+            <img alt="" src={`${basePath}/images/stangel-2022-0052.jpg`}
               className='w-full h-full object-cover aspect-square'></img>
           </div>
         </div>
@@ -201,7 +203,7 @@ export default function Home() {
                 <a href="/research/weak-to-strong-generalization" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/weak-to-strong-generalization.jpg"}
+                      <img alt='' src={`${basePath}/images/weak-to-strong-generalization.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -217,7 +219,7 @@ export default function Home() {
                 <a href="/research/practices-for-governing-agentic-ai-systems" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/practices-for-governing-agentic-ai-systems.jpg"}
+                      <img alt='' src={`${basePath}/images/practices-for-governing-agentic-ai-systems.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -233,7 +235,7 @@ export default function Home() {
                 <a href="/research/dall-e-3-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/dall-e-3-system-card.png"}
+                      <img alt='' src={`${basePath}/images/dall-e-3-system-card.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -249,7 +251,7 @@ export default function Home() {
                 <a href="/research/gpt-4v-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/gpt-4vision-system-card.png"}
+                      <img alt='' src={`${basePath}/images/gpt-4vision-system-card.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -285,7 +287,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/team-hero-for-blog.jpg"}
+                      <img alt='' src={`${basePath}/images/team-hero-for-blog.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -301,7 +303,7 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/gpt-store-r3.png"}
+                      <img alt='' src={`${basePath}/images/gpt-store-r3.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -317,7 +319,7 @@ export default function Home() {
                 <a href="/research/dall-e-3-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/introducing-gpts.png"}
+                      <img alt='' src={`${basePath}/images/introducing-gpts.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -333,7 +335,7 @@ export default function Home() {
                 <a href="/research/gpt-4v-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={"/images/new-models-and-developer-products-announced-at-devday.jpg"}
+                      <img alt='' src={`${basePath}/images/new-models-and-developer-products-announced-at-devday.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
@@ -364,7 +366,7 @@ export default function Home() {
             </div>
           </div>
           <div className='pb-16'>
-            <img alt="" src={"/images/stangel-2022-1598.jpg"}
+            <img alt="" src={`${basePath}/images/stangel-2022-1598.jpg`}
               className='w-full h-full object-cover aspect-square'></img>
           </div>
           <div className='flex flex-row items-start justify-start border-t-[1px] border-[rgba(255,255,255,.2)] pt-4 pb-16'>
@@ -382,7 +384,7 @@ export default function Home() {
               </figure>
             </div>
             <div className='w-1/2'>
-              <img alt="" src={"/images/stangel-2022-0484.jpg"}
+              <img alt="" src={`${basePath}/images/stangel-2022-0484.jpg`}
                 className='w-full h-full object-cover aspect-square'></img>
             </div>
           </div>
