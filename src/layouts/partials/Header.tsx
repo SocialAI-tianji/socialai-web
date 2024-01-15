@@ -1,5 +1,7 @@
 "use client"
 
+import {useEffect} from 'react'
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,8 +10,28 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 export default function Header() {
+  useEffect(() => {
+    // TODO: debounce?
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const header = document.getElementById('header');
+      if (scrollY > 64) { // header height
+        header?.classList.remove('bg-transparent');
+        header?.classList.add('bg-black');
+      } else {
+        header?.classList.remove('bg-black');
+        header?.classList.add('bg-transparent');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <header className="top-0 left-0 z-50 w-full py-5 text-white bg-black sticky transition-all duration-300">
+    <header id="header" className="top-0 left-0 z-50 w-full py-5 text-white bg-transparent sticky transition-all duration-300">
       <div className="container mx-auto flex">
         <nav className="flex gap-4">
           <h1 className=""><a href="/">Social AI</a></h1>
