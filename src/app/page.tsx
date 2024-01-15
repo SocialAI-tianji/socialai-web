@@ -7,7 +7,7 @@ export default function Home() {
     <div className='bg-black'>
       <div className="">
         <div
-          className="relative -mt-20 h-screen max-h-[1000px] w-full md:-mt-16 min-h-[500px] lg:min-h-[600px]"
+          className="relative -mt-20 h-screen w-full md:-mt-16"
         >
           <div className="relative h-full w-full">
             <video
@@ -55,25 +55,25 @@ export default function Home() {
       </div>
       <div className='container mx-auto text-white'>
         <div>
-          <ul className='flex flex-row flex-wrap items-start justify-start mt-16 py-16'>
-            <li className='w-1/3'>
-              <h3 className='text-2xl font-semibold w-3/4'>Pioneering research on the path to AGI</h3>
+          <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16 py-16'>
+            <li className='w-full md:w-1/3 mt-8 md:mt-0'>
+              <h3 className='text-2xl font-semibold w-full md:w-3/4'>Pioneering research on the path to AGI</h3>
               <div className="mt-3">
                 <a href="/research/overview" className="underline" aria-label="Learn about our research">
                   <span>Learn about our research</span>
                 </a>
               </div>
             </li>
-            <li className='w-1/3'>
-              <h3 className='text-2xl font-semibold w-3/4'>Transforming work and creativity with AI</h3>
+            <li className='w-full md:w-1/3 mt-8 md:mt-0'>
+              <h3 className='text-2xl font-semibold w-full md:w-3/4'>Transforming work and creativity with AI</h3>
               <div className="mt-3">
                 <a href="/research/overview" className="underline" aria-label="Explore our products">
                   <span>Explore our products</span>
                 </a>
               </div>
             </li>
-            <li className='w-1/3'>
-              <h3 className='text-2xl font-semibold w-3/4'>Join us in shaping the future of technology</h3>
+            <li className='w-full md:w-1/3 mt-8 md:mt-0'>
+              <h3 className='text-2xl font-semibold w-full md:w-3/4'>Join us in shaping the future of technology</h3>
               <div className="mt-3">
                 <a href="/research/overview" className="underline" aria-label="View careers">
                   <span>View careers</span>
@@ -84,9 +84,9 @@ export default function Home() {
         </div>
         {/* Latest updates */}
         <div className='pb-16'>
-          <div className='flex flex-row item-start justify-between border-t border-white pt-4'>
+          <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
             <div>
-              <h2 className='text-4xl'>Latest updates</h2>
+              <h2 className='text-2xl md:text-4xl'>Latest updates</h2>
             </div>
             <div className='grow'></div>
             <div>
@@ -94,8 +94,8 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <ul className='flex flex-row flex-wrap items-start justify-start mt-16'>
-              <li className='w-1/4 pr-4'>
+            <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -111,7 +111,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -127,7 +127,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -143,7 +143,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -164,12 +164,12 @@ export default function Home() {
         </div>
         {/* Safety & responsibility */}
         <div className='pb-16'>
-          <div className='flex flex-row item-start justify-between border-t border-white pt-4 pb-16'>
-            <div className='w-1/2'>
-              <h2 className='text-4xl'>Safety & responsibility</h2>
+          <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4 pb-16'>
+            <div className='w-full md:w-1/2'>
+              <h2 className='text-2xl md:text-4xl'>Safety & responsibility</h2>
             </div>
-            <div className='w-1/2'>
-              <div className='text-2xl'>
+            <div className='w-full md:w-1/2'>
+              <div className='text-xl md:text-2xl'>
                 <p>Our work to create safe and beneficial AI requires a deep understanding of the potential risks and benefits, as well as careful consideration of the impact.</p>
               </div>
               <div className='mt-6'>
@@ -184,12 +184,12 @@ export default function Home() {
         </div>
         {/* Research */}
         <div className='pb-16'>
-          <div className='flex flex-row item-start justify-between border-t border-white pt-4'>
-            <div className='w-1/2'>
-              <h2 className='text-4xl'>Research</h2>
+          <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
+            <div className='w-full md:w-1/2'>
+              <h2 className='text-2xl md:text-4xl'>Research</h2>
             </div>
-            <div className='w-1/2'>
-              <div className='text-2xl'>
+            <div className='w-full md:w-1/2'>
+              <div className='text-xl md:text-2xl'>
                 <p>We research generative models and how to align them with human values.</p>
               </div>
               <div className='mt-6'>
@@ -198,8 +198,8 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <ul className='flex flex-row flex-wrap items-start justify-start mt-16'>
-              <li className='w-1/4 pr-4'>
+            <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/weak-to-strong-generalization" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -215,7 +215,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/practices-for-governing-agentic-ai-systems" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -231,7 +231,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/dall-e-3-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -247,7 +247,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/gpt-4v-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -268,12 +268,12 @@ export default function Home() {
         </div>
         {/* Products */}
         <div className='pb-16'>
-          <div className='flex flex-row item-start justify-between border-t border-white pt-4'>
-            <div className='w-1/2'>
-              <h2 className='text-4xl'>Products</h2>
+          <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
+            <div className='w-full md:w-1/2'>
+              <h2 className='text-2xl md:text-4xl'>Products</h2>
             </div>
-            <div className='w-1/2'>
-              <div className='text-2xl'>
+            <div className='w-full md:w-1/2'>
+              <div className='text-xl md:text-2xl'>
                 <p>Our API platform offers our latest models and guides for safety best practices.</p>
               </div>
               <div className='mt-6'>
@@ -282,8 +282,8 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <ul className='flex flex-row flex-wrap items-start justify-start mt-16'>
-              <li className='w-1/4 pr-4'>
+            <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -299,7 +299,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -315,7 +315,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/dall-e-3-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -331,7 +331,7 @@ export default function Home() {
                   </div>
                 </a>
               </li>
-              <li className='w-1/4 pr-4'>
+              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
                 <a href="/research/gpt-4v-system-card" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
@@ -352,12 +352,12 @@ export default function Home() {
         </div>
         {/* Careers at OpenAI */}
         <div className='pb-16'>
-          <div className='flex flex-row item-start justify-between border-t border-white pt-4 pb-16'>
-            <div className='w-1/2'>
-              <h2 className='text-4xl'>Careers at OpenAI</h2>
+          <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4 pb-16'>
+            <div className='w-full md:w-1/2'>
+              <h2 className='text-2xl md:text-4xl'>Careers at OpenAI</h2>
             </div>
-            <div className='w-1/2'>
-              <div className='text-2xl'>
+            <div className='w-full md:w-1/2'>
+              <div className='text-xl md:text-2xl'>
                 <p>Developing safe and beneficial AI requires people from a wide range of disciplines and backgrounds.</p>
               </div>
               <div className='mt-6'>
@@ -369,10 +369,10 @@ export default function Home() {
             <img alt="" src={`${basePath}/images/stangel-2022-1598.jpg`}
               className='w-full h-full object-cover aspect-square'></img>
           </div>
-          <div className='flex flex-row items-start justify-start border-t-[1px] border-[rgba(255,255,255,.2)] pt-4 pb-16'>
-            <div className='w-1/2'>
+          <div className='flex flex-col md:flex-row items-start justify-start border-t-[1px] border-[rgba(255,255,255,.2)] pt-4 pb-0 md:pb-16'>
+            <div className='w-full md:w-1/2 order-2 md:order-1 mt-10 md:mt-0'>
               <figure className='relative pl-4'>
-                <blockquote className='text-5xl'>
+                <blockquote className='text-2xl md:text-5xl'>
                   <p className="after:content-['”'] before:content-['“'] before:absolute before:left-0">
                     I encourage my team to keep learning. Ideas in different topics or fields can often inspire new ideas and broaden the potential solution space.
                   </p>
@@ -383,13 +383,13 @@ export default function Home() {
                 </figcaption>
               </figure>
             </div>
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2 order-1 md:order-2'>
               <img alt="" src={`${basePath}/images/stangel-2022-0484.jpg`}
                 className='w-full h-full object-cover aspect-square'></img>
             </div>
           </div>
           <div className='border-t border-white mt-16 pt-4 pb-16'>
-            <h2 className="text-5xl">Join us in shaping the future of technology.</h2>
+            <h2 className="text-2xl md:text-5xl">Join us in shaping the future of technology.</h2>
             <div className='pt-16'>
               <a href="/careers" className="flex items-center justify-center border border-white rounded py-6 hover:bg-white hover:text-black" aria-label="View careers">
                 <span className="text-2xl">View careers</span>
