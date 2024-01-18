@@ -2,6 +2,7 @@
 
 import {useEffect} from 'react'
 
+import Link from 'next/link'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -33,8 +34,8 @@ export default function Header() {
   return (
     <header id="header" className="top-0 left-0 z-50 w-full py-5 text-white bg-transparent sticky transition-all duration-300">
       <div className="container mx-auto flex">
-        <nav className="flex gap-4">
-          <h1 className=""><a href="/">Social AI</a></h1>
+        <nav className="flex gap-4 w-full">
+          <h1 className=""><Link href="/">Social AI</Link></h1>
           <DropdownMenu>
             <DropdownMenuTrigger>Research</DropdownMenuTrigger>
             <DropdownMenuContent className="bg-black text-white">
@@ -49,6 +50,8 @@ export default function Header() {
               <DropdownMenuItem>Data Privacy</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <div className='grow'></div>
+          <h1><Link href={"/about"}>About</Link></h1>
         </nav>
       </div>
     </header>
