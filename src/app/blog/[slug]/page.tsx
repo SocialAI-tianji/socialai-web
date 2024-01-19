@@ -18,7 +18,7 @@ interface PostData {
   description?: string;
 }
 
-export async function getPostData(slug: string): Promise<PostData> {
+async function getPostData(slug: string): Promise<PostData> {
   const fullPath = path.join(postsDirectory, `${slug}/index.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
