@@ -1,7 +1,5 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
+import img from "next/image";
 
 export default function Practice() {
   return (
@@ -10,8 +8,8 @@ export default function Practice() {
         <header className="min-h-40 flex flex-col justify-around">
           <p className="text-2xl">What we do</p>
           <p className="text-3xl">
-            Tianii is Social Al's most comprehensive systemintegrating advanced
-            knowledge of China society.
+            Tianii is Social Al&apos;s most comprehensive systemintegrating
+            advanced knowledge of China society.
           </p>
         </header>
         <div className="mt-8 mb-8">
