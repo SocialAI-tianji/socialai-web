@@ -1,5 +1,4 @@
 "use client";
-import img from "next/image";
 
 export default function Practice() {
   return (
