@@ -12,6 +12,12 @@ export default function Practice() {
             advanced knowledge of China society.<br></br>
             <br></br>
             来事儿AI构建并开源了常见的大模型应用范例，涉及prompt、Agent、知识库、模型训练。您可以在本网页下找到对应的试用链接。
+            <br></br>
+            <br></br>
+            <a href="https://github.com/SocialAI-tianji/Tianji" target="_blank" rel="noopener noreferrer">
+              如果喜欢，<br></br>
+              请给我们一个 Star :) https://github.com/SocialAI-tianji/Tianji
+            </a>
           </p>
         </header>
         <div className="mt-8 mb-8">
@@ -21,12 +27,15 @@ export default function Practice() {
             alt=""
           />
         </div>
+        <p className="text-3xl">
+            点击图片，即可开始体验<br></br>
+          </p>
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
             <p className="text-3xl">Prompt</p>
-            <p className="text-lg underline underline-offset-8 underline-thickness-1">
+            {/* <p className="text-lg underline underline-offset-8 underline-thickness-1">
               View all updates
-            </p>
+            </p> */}
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div
@@ -34,35 +43,33 @@ export default function Practice() {
               className="cursor-pointer"
             >
               <img
-                src={`${basePath}/images/prompt1.jpg`}
+                src={`${basePath}/images/prompt4.jpg`}
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
+              <p className="text-base pt-8">餐桌上不会说话/敬酒？如何送祝福？如何化解尴尬和矛盾？让大模型给你灵感</p>
             </div>
-            <div>
-              <img
-                src={`${basePath}/images/prompt2.jpg`}
-                className="w-full"
-                alt=""
-              />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
+          </div>
+        </div>
+
+        <div className="border-t pb-20">
+          <div className="flex justify-between pt-4 pb-4">
+            <p className="text-3xl">AIGame</p>
+            <p className="text-lg underline underline-offset-8 underline-thickness-1">
+              View all updates
+            </p>
+          </div>
+          <div className="grid grid-cols-4 gap-4">
+          <div
+              onClick={() => window.open("http://120.76.130.14:6006/prompt/")}
+              className="cursor-pointer"
+            >
               <img
                 src={`${basePath}/images/prompt3.jpg`}
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img
-                src={`${basePath}/images/prompt4.jpg`}
-                className="w-full"
-                alt=""
-              />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
+              <p className="text-base pt-8">实现自己的哄哄模拟器/七大姑八大姨游戏，已开源</p>
             </div>
           </div>
         </div>
@@ -70,92 +77,43 @@ export default function Practice() {
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
             <p className="text-3xl">Agent</p>
-            <p className="text-lg underline underline-offset-8 underline-thickness-1">
+            {/* <p className="text-lg underline underline-offset-8 underline-thickness-1">
               View all updates
-            </p>
+            </p> */}
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
+          <div
+              onClick={() => window.open("http://120.76.130.14:6005/")}
+              className="cursor-pointer"
+            >
               <img
-                src={`${basePath}/images/prompt1.jpg`}
+                src={`${basePath}/images/prompt2.jpg`}
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt2.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt3.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt4.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
+              <p className="text-base pt-8">利用 Agent 给出更详细丰富的祝福语（更多功能 pending）</p>
             </div>
           </div>
         </div>
 
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
-            <p className="text-3xl">zhishiku</p>
+            <p className="text-3xl">知识库</p>
             <p className="text-lg underline underline-offset-8 underline-thickness-1">
               View all updates
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
+          <div
+              onClick={() => window.open("TODO")}
+              className="cursor-pointer"
+            >
               <img
                 src={`${basePath}/images/prompt1.jpg`}
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt2.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt3.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt4.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-t pb-20">
-          <div className="flex justify-between pt-4 pb-4">
-            <p className="text-3xl">AIgame</p>
-            <p className="text-lg underline underline-offset-8 underline-thickness-1">
-              View all updates
-            </p>
-          </div>
-          <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img
-                src={`${basePath}/images/prompt1.jpg`}
-                className="w-full"
-                alt=""
-              />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt2.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt3.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt4.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
+              <p className="text-base pt-8">大模型幻觉？利用知识库解答一切来事儿问题</p>
             </div>
           </div>
         </div>
@@ -168,25 +126,16 @@ export default function Practice() {
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
+          <div
+              onClick={() => window.open("https://openxlab.org.cn/apps/detail/jujimeizuo/tianji-wish")}
+              className="cursor-pointer"
+            >
               <img
                 src={`${basePath}/images/prompt1.jpg`}
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt2.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt3.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
-            </div>
-            <div>
-              <img src={`${basePath}/prompt4.jpg`} className="w-full" alt="" />
-              <p className="text-base pt-2">此礼非礼，直击人心</p>
+              <p className="text-base pt-8">基于大模型训练的人情世故模型，当前只有送祝福功能（每一步都会开源）</p>
             </div>
           </div>
         </div>
