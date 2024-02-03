@@ -8,7 +8,7 @@ export default function Practice() {
           <p className="text-6xl">What we do</p>
           <p className="text-3xl">
             <br></br>
-            Tianii is Social Al&apos;s most comprehensive systemintegrating
+            Tianji is Social Al&apos;s most comprehensive systemintegrating
             advanced knowledge of China society.<br></br>
             <br></br>
             来事儿AI构建并开源了常见的大模型应用范例，涉及prompt、Agent、知识库、模型训练。您可以在本网页下找到对应的试用链接。
