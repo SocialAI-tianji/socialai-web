@@ -12,7 +12,7 @@ export default function Practice() {
           </p>
         </header>
         <div className="mt-8 mb-8">
-          <img src={`${basePath}/images/banner1.jpg`} className="h-full w-full" alt="" />
+          <img src={`../images/banner1.jpg`} className="h-full w-full" alt="" />
         </div>
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
@@ -23,19 +23,19 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src="/images/prompt1.jpg" className="w-full" alt="" />
+              <img src="../images/prompt1.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt2.jpg" className="w-full" alt="" />
+              <img src="../images/prompt2.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt3.jpg" className="w-full" alt="" />
+              <img src="../images/prompt3.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt4.jpg" className="w-full" alt="" />
+              <img src="../images/prompt4.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
@@ -49,20 +49,20 @@ export default function Practice() {
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img src="/images/prompt1.jpg" className="w-full" alt="" />
+          <div>
+              <img src="../images/prompt1.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt2.jpg" className="w-full" alt="" />
+              <img src="../images/prompt2.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt3.jpg" className="w-full" alt="" />
+              <img src="../images/prompt3.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt4.jpg" className="w-full" alt="" />
+              <img src="../images/prompt4.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
@@ -76,20 +76,20 @@ export default function Practice() {
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img src="/images/prompt1.jpg" className="w-full" alt="" />
+          <div>
+              <img src="../images/prompt1.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt2.jpg" className="w-full" alt="" />
+              <img src="../images/prompt2.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt3.jpg" className="w-full" alt="" />
+              <img src="../images/prompt3.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt4.jpg" className="w-full" alt="" />
+              <img src="../images/prompt4.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
@@ -103,20 +103,20 @@ export default function Practice() {
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img src="/images/prompt1.jpg" className="w-full" alt="" />
+          <div>
+              <img src="../images/prompt1.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt2.jpg" className="w-full" alt="" />
+              <img src="../images/prompt2.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt3.jpg" className="w-full" alt="" />
+              <img src="../images/prompt3.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt4.jpg" className="w-full" alt="" />
+              <img src="../images/prompt4.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
@@ -131,19 +131,19 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src="/images/prompt1.jpg" className="w-full" alt="" />
+              <img src="../images/prompt1.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt2.jpg" className="w-full" alt="" />
+              <img src="../images/prompt2.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt3.jpg" className="w-full" alt="" />
+              <img src="../images/prompt3.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src="/images/prompt4.jpg" className="w-full" alt="" />
+              <img src="../images/prompt4.jpg" className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
