@@ -23,7 +23,7 @@ export default function post5() {
           <div className='w-full md:w-1/4 mt-10 md:mt-0'>
             <figure className='relative pl-4'>
               <blockquote >
-                <h6>January XXXX</h6>   
+                <h6>January 25, 2024</h6>   
               </blockquote>
             </figure>
           </div>
@@ -33,7 +33,6 @@ export default function post5() {
             </blockquote>              
             <p className='mt-16'>
               引言 <br></br>
-              <br/>
               SocialAI研究员在对人情世故的研究过程中，得出了是否会奉承才是鉴定AGI的核心的观点，如果一个AI不会敬酒、不会说好话、不会送礼，那他一定是走不远的。为了超越OpenAI在这方面的效果，SocialAI将在奉承任务进行了广泛的积累。
               <br/><br/>
               在人工智能领域中，大模型的崛起无疑是科技进步的一次壮丽飞越，同时也带来了前所未有的挑战。其中一项核心挑战在于如何使这些智能体的行为与人类社会的期待和价值观无缝对接，即实现对齐这一高深艺术。本文将阿谀奉承的艺术巧妙地引入到对齐规范之中，旨在探讨如何借助这种深入人心的社会交往智慧，赋予人工智能更为圆滑、贴切且文化敏感的表现力。
