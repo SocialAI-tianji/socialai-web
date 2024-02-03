@@ -200,7 +200,7 @@ export default function Home() {
           <div>
             <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
             <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="${basePath}/blog/post6" className='group'>
+                <a href={`${basePath}/blog/post6`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/weak-to-strong-generalization.jpg`}
