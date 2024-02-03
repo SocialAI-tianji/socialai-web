@@ -31,7 +31,7 @@ export default function Home() {
               <div className="">
                 <div className="relative z-40 md:mx-40">
                   <h1 className="text-6xl">
-                    Creating safe AGI that benefits all of humanity
+                    Creating Social AGI that benefits all of humanity
                   </h1>
                   <h2 className="sr-only" id="heroLinks">Quicklinks</h2>
                   <ul
@@ -40,10 +40,10 @@ export default function Home() {
                   >
                     <li className="shrink-0 relative mb-2">
                       <a
-                        href="/about"
+                        href={`${basePath}/practice`}
                         className="inline-block py-1 px-2 border border-white rounded-md"
-                        aria-label="Learn about SocialAI"
-                        ><span className="flex items-center"><span className="">Learn about SocialAI</span></span>
+                        aria-label="Try SocialAI"
+                        ><span className="flex items-center"><span className="">Try SocialAI</span></span>
                       </a>
                     </li>
                   </ul>
@@ -59,25 +59,25 @@ export default function Home() {
             <li className='w-full md:w-1/3 mt-8 md:mt-0'>
               <h3 className='text-2xl font-semibold w-full md:w-3/4'>Pioneering research on the path to AGI</h3>
               <div className="mt-3">
-                <a href="/research/overview" className="underline" aria-label="Learn about our research">
+                {/* <a href="/research/overview" className="underline" aria-label="Learn about our research">
                   <span>Learn about our research</span>
-                </a>
+                </a> */}
               </div>
             </li>
             <li className='w-full md:w-1/3 mt-8 md:mt-0'>
               <h3 className='text-2xl font-semibold w-full md:w-3/4'>Transforming work and creativity with AI</h3>
               <div className="mt-3">
-                <a href="/research/overview" className="underline" aria-label="Explore our products">
+                {/* <a href="/research/overview" className="underline" aria-label="Explore our products">
                   <span>Explore our products</span>
-                </a>
+                </a> */}
               </div>
             </li>
             <li className='w-full md:w-1/3 mt-8 md:mt-0'>
               <h3 className='text-2xl font-semibold w-full md:w-3/4'>Join us in shaping the future of technology</h3>
               <div className="mt-3">
-                <a href="/research/overview" className="underline" aria-label="View careers">
+                {/* <a href="/research/overview" className="underline" aria-label="View careers">
                   <span>View careers</span>
-                </a>
+                </a> */}
               </div>
             </li>
           </ul>
@@ -190,11 +190,11 @@ export default function Home() {
             </div>
             <div className='w-full md:w-1/2'>
               <div className='text-xl md:text-2xl'>
-                <p>We research generative models and how to align them with human values.</p>
+                <p>We research generative models and how to align them with social values.</p>
               </div>
-              <div className='mt-6'>
+              {/* <div className='mt-6'>
                 <a href="/research/overview" className="underline" aria-label="Learn about our research">Learn about our research</a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div>
@@ -209,14 +209,14 @@ export default function Home() {
                     <div>
                       <h3 className='text-lg mt-2 font-semibold group-hover:underline'>奉承的艺术</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">XXX, 2024</span>
+                        <span aria-hidden="true">January 25, 2024</span>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="${basePath}/blog/post5" className='group'>
+                <a href={`${basePath}/blog/post5`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post5.png`}
@@ -232,7 +232,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="${basePath}/blog/post4" className='group'>
+                <a href={`${basePath}/blog/post4`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post4.png`}
@@ -248,7 +248,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
-                <a href="${basePath}/blog/post3" className='group'>
+                <a href={`${basePath}/blog/post3`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post3.png`}
@@ -264,7 +264,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
-                <a href="/blog/post2" className='group'>
+                <a href={`${basePath}/blog/post2`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post2.png`}
@@ -280,7 +280,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
-                <a href="/blog/post1" className='group'>
+                <a href={`${basePath}/blog/post1`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post1.png`}

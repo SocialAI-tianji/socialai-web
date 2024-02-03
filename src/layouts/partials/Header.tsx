@@ -40,9 +40,9 @@ export default function Header() {
       <div className="container mx-auto flex">
         <nav className="flex gap-4 w-full">
           <h1 className="">
-            <Link href="/">Social AI</Link>
+            <Link href="/">Home</Link>
           </h1>
-          <DropdownMenu>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger>Research</DropdownMenuTrigger>
             <DropdownMenuContent className="bg-black text-white">
               <DropdownMenuItem>Overview</DropdownMenuItem>
@@ -53,17 +53,22 @@ export default function Header() {
             <DropdownMenuTrigger>API</DropdownMenuTrigger>
             <DropdownMenuContent className="bg-black text-white">
               <DropdownMenuItem>API</DropdownMenuItem>
-              <DropdownMenuItem>Data Privacy</DropdownMenuItem>
+              <DropdownMenuItem>Data Privacy</DropdownMenuItem>s
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <Link href={"/practice"}>Practice</Link>
+              <Link href={"/practice"}>RUN</Link>
             </DropdownMenuTrigger>
             {/* <DropdownMenuContent className="bg-black text-white">
               <DropdownMenuItem>API</DropdownMenuItem>
               <DropdownMenuItem>Data Privacy</DropdownMenuItem>
             </DropdownMenuContent> */}
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger>
+              <Link href={"/careers"}>Careers</Link>
+            </DropdownMenuTrigger>
           </DropdownMenu>
           {/* <div className="grow"></div>
           <h1>
