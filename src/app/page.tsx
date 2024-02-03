@@ -83,7 +83,7 @@ export default function Home() {
           </ul>
         </div>
         {/* Latest updates */}
-        <div className='pb-16'>
+        {/* <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
             <div>
               <h2 className='text-2xl md:text-4xl'>Latest updates</h2>
@@ -96,30 +96,30 @@ export default function Home() {
           <div>
             <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
               <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/blog/introducing-chatgpt-team" className='group'>
+                <a href="/blog/Super_alignment_of_human_emotions_and_minds" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/team-hero-for-blog.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>Introducing ChatGPT team</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>有关人情心智的超级对齐</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">Jan 10, 2024</span>
+                        <span aria-hidden="true">Jan 23, 2024</span>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
               <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/blog/introducing-chatgpt-team" className='group'>
+                <a href="/blog/Aligning_Advanced_AI_Systems_with_Human_Values_Perspectives_and_Priorities" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/gpt-store-r3.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>Introducing the GPT Store</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>使先进AI系统与人类价值观保持一致 - 观点与优先事项</h3>
                       <div className='mt-1'>
                         <span aria-hidden="true">Jan 10, 2024</span>
                       </div>
@@ -161,9 +161,9 @@ export default function Home() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         {/* Safety & responsibility */}
-        <div className='pb-16'>
+        {/* <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4 pb-16'>
             <div className='w-full md:w-1/2'>
               <h2 className='text-2xl md:text-4xl'>Safety & responsibility</h2>
@@ -181,7 +181,7 @@ export default function Home() {
             <img alt="" src={`${basePath}/images/stangel-2022-0052.jpg`}
               className='w-full h-full object-cover aspect-square'></img>
           </div>
-        </div>
+        </div> */}
         {/* Research */}
         <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
@@ -199,65 +199,97 @@ export default function Home() {
           </div>
           <div>
             <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
-              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/research/weak-to-strong-generalization" className='group'>
+            <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
+                <a href="/blog/post6" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/weak-to-strong-generalization.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>Weak-to-strong generalization</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>代办</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">Dec 14, 2023</span>
+                        <span aria-hidden="true">XXX, 2024</span>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
-              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/research/practices-for-governing-agentic-ai-systems" className='group'>
+              <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
+                <a href="/blog/post5" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={`${basePath}/images/practices-for-governing-agentic-ai-systems.jpg`}
+                      <img alt='' src={`${basePath}/images/post5.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>Practices for Governing Agentic AI Systems</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>全新的大模型对齐规范：人情世故</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">Dec 14, 2023</span>
+                        <span aria-hidden="true">January 24, 2024</span>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
-              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/research/dall-e-3-system-card" className='group'>
+              <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
+                <a href="/blog/post4" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={`${basePath}/images/dall-e-3-system-card.png`}
+                      <img alt='' src={`${basePath}/images/post4.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>DALL·E 3 system card</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>自我效能感对向上社交有效性的影响</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">Oct 3, 2023</span>
+                        <span aria-hidden="true">January 23, 2024</span>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
-              <li className='w-full md:w-1/4 mt-8 md:mt-0 pr-0 md:pr-4'>
-                <a href="/research/gpt-4v-system-card" className='group'>
+              <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
+                <a href="/blog/post3" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={`${basePath}/images/gpt-4vision-system-card.png`}
+                      <img alt='' src={`${basePath}/images/post3.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>GPT-4V(ision) system card</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>人工智能价值观对齐:关于人类价值观的社会学视角</h3>
                       <div className='mt-1'>
-                        <span aria-hidden="true">Sep 25, 2023</span>
+                        <span aria-hidden="true">January 22, 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
+                <a href="/blog/post2" className='group'>
+                  <div className='flex flex-col items-start justify-start'>
+                    <div className='relative w-full'>
+                      <img alt='' src={`${basePath}/images/post2.png`}
+                        className='w-full h-full object-cover aspect-square'></img>
+                    </div>
+                    <div>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>使先进AI系统与人类价值观保持一致 - 观点与优先事项</h3>
+                      <div className='mt-1'>
+                        <span aria-hidden="true">January 21, 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
+                <a href="/blog/post1" className='group'>
+                  <div className='flex flex-col items-start justify-start'>
+                    <div className='relative w-full'>
+                      <img alt='' src={`${basePath}/images/post1.png`}
+                        className='w-full h-full object-cover aspect-square'></img>
+                    </div>
+                    <div>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>有关人情心智的超级对齐</h3>
+                      <div className='mt-1'>
+                        <span aria-hidden="true">January 20, 2024</span>
                       </div>
                     </div>
                   </div>
@@ -267,7 +299,7 @@ export default function Home() {
           </div>
         </div>
         {/* Products */}
-        <div className='pb-16'>
+        {/* <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4'>
             <div className='w-full md:w-1/2'>
               <h2 className='text-2xl md:text-4xl'>Products</h2>
@@ -349,7 +381,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         {/* Careers at OpenAI */}
         <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4 pb-16'>
@@ -369,7 +401,7 @@ export default function Home() {
             <img alt="" src={`${basePath}/images/stangel-2022-1598.jpg`}
               className='w-full h-full object-cover aspect-square'></img>
           </div>
-          <div className='flex flex-col md:flex-row items-start justify-start border-t-[1px] border-[rgba(255,255,255,.2)] pt-4 pb-0 md:pb-16'>
+          {/* <div className='flex flex-col md:flex-row items-start justify-start border-t-[1px] border-[rgba(255,255,255,.2)] pt-4 pb-0 md:pb-16'>
             <div className='w-full md:w-1/2 order-2 md:order-1 mt-10 md:mt-0'>
               <figure className='relative pl-4'>
                 <blockquote className='text-2xl md:text-5xl'>
@@ -387,7 +419,7 @@ export default function Home() {
               <img alt="" src={`${basePath}/images/stangel-2022-0484.jpg`}
                 className='w-full h-full object-cover aspect-square'></img>
             </div>
-          </div>
+          </div> */}
           <div className='border-t border-white mt-16 pt-4 pb-16'>
             <h2 className="text-2xl md:text-5xl">Join us in shaping the future of technology.</h2>
             <div className='pt-16'>
