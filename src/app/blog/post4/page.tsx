@@ -17,7 +17,7 @@ export default function post4() {
                   
                   {/* <figcaption className='mt-6'>
                     <span className='font-semibold block'>Lilian Weng</span>
-                    <span className='block'>Applied AI at OpenAI</span>
+                    <span className='block'>Applied AI at SocialAI</span>
                   </figcaption> */}
                 </figure>
               </div>

@@ -42,8 +42,8 @@ export default function Home() {
                       <a
                         href="/about"
                         className="inline-block py-1 px-2 border border-white rounded-md"
-                        aria-label="Learn about OpenAI"
-                        ><span className="flex items-center"><span className="">Learn about OpenAI</span></span>
+                        aria-label="Learn about SocialAI"
+                        ><span className="flex items-center"><span className="">Learn about SocialAI</span></span>
                       </a>
                     </li>
                   </ul>
@@ -131,11 +131,11 @@ export default function Home() {
                 <a href="/blog/introducing-chatgpt-team" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={`${basePath}/images/openai-and-journalism.jpg`}
+                      <img alt='' src={`${basePath}/images/SocialAI-and-journalism.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>OpenAI and journalism</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>SocialAI and journalism</h3>
                       <div className='mt-1'>
                         <span aria-hidden="true">Jan 8, 2024</span>
                       </div>
@@ -200,14 +200,14 @@ export default function Home() {
           <div>
             <ul className='flex flex-col md:flex-row flex-wrap items-start justify-start mt-0 md:mt-16'>
             <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="/blog/post6" className='group'>
+                <a href="${basePath}/blog/post6" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/weak-to-strong-generalization.jpg`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>代办</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>奉承的艺术</h3>
                       <div className='mt-1'>
                         <span aria-hidden="true">XXX, 2024</span>
                       </div>
@@ -216,7 +216,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="/blog/post5" className='group'>
+                <a href="${basePath}/blog/post5" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post5.png`}
@@ -232,7 +232,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-0 pr-0 md:pr-24'>
-                <a href="/blog/post4" className='group'>
+                <a href="${basePath}/blog/post4" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post4.png`}
@@ -248,7 +248,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='w-full md:w-1/3 mt-8 md:mt-20 pr-0 md:pr-24'>
-                <a href="/blog/post3" className='group'>
+                <a href="${basePath}/blog/post3" className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
                       <img alt='' src={`${basePath}/images/post3.png`}
@@ -382,11 +382,11 @@ export default function Home() {
             </ul>
           </div>
         </div> */}
-        {/* Careers at OpenAI */}
+        {/* Careers at SocialAI */}
         <div className='pb-16'>
           <div className='flex flex-col md:flex-row item-start justify-between border-t border-white pt-4 pb-16'>
             <div className='w-full md:w-1/2'>
-              <h2 className='text-2xl md:text-4xl'>Careers at OpenAI</h2>
+              <h2 className='text-2xl md:text-4xl'>Careers at SocialAI</h2>
             </div>
             <div className='w-full md:w-1/2'>
               <div className='text-xl md:text-2xl'>
@@ -411,7 +411,7 @@ export default function Home() {
                 </blockquote>
                 <figcaption className='mt-6'>
                   <span className='font-semibold block'>Lilian Weng</span>
-                  <span className='block'>Applied AI at OpenAI</span>
+                  <span className='block'>Applied AI at SocialAI</span>
                 </figcaption>
               </figure>
             </div>

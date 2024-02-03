@@ -82,7 +82,7 @@ export default function Overview() {
 ```
 
 # 例：新文章需要的操作<br>
-以专栏  Latest updates 为例，我们有四个板块[Introducing ChatGPT team]、 [Introducing the GPT Store]、[OpenAI and journalism]和[Superalignment Fast Grants Dec 14, 2023]，将其中的板块跳转到我们对应的文章中。<br>
+以专栏  Latest updates 为例，我们有四个板块[Introducing ChatGPT team]、 [Introducing the GPT Store]、[SocialAI and journalism]和[Superalignment Fast Grants Dec 14, 2023]，将其中的板块跳转到我们对应的文章中。<br>
 1.找到app目录下的page.tsx文件，找到代码的{/* Latest updates */}下的Introducing the GPT Store部分<br>
 
 ```bash
