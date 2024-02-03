@@ -208,11 +208,11 @@ export default function Home() {
                 <a href={`${basePath}/blog/post6`} className='group'>
                   <div className='flex flex-col items-start justify-start'>
                     <div className='relative w-full'>
-                      <img alt='' src={`${basePath}/images/weak-to-strong-generalization.jpg`}
+                      <img alt='' src={`${basePath}/images/post6.png`}
                         className='w-full h-full object-cover aspect-square'></img>
                     </div>
                     <div>
-                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>奉承的艺术</h3>
+                      <h3 className='text-lg mt-2 font-semibold group-hover:underline'>说好话的艺术</h3>
                       <div className='mt-1'>
                         <span aria-hidden="true">January 25, 2024</span>
                       </div>

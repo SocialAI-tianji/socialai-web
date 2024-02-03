@@ -6,7 +6,7 @@ export default function post5() {
                 <figure className='relative pl-4'>
                   <blockquote className='text-2xl md:text-6xl'>
                     <p>
-                    奉承的艺术
+                    说好话的艺术
                     </p>
                   </blockquote>
 

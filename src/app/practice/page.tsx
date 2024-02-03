@@ -63,7 +63,7 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
           <div
-              onClick={() => window.open("http://120.76.130.14:6006/prompt/")}
+              onClick={() => window.open("https://github.com/SocialAI-tianji/Tianji/tree/main/test/prompt/aigame/zhipu")}
               className="cursor-pointer"
             >
               <img
@@ -71,7 +71,7 @@ export default function Practice() {
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-8">实现自己的哄哄模拟器/七大姑八大姨游戏，已开源</p>
+              <p className="text-base pt-8">实现自己的哄哄模拟器/七大姑八大姨游戏，已开源提示词（即将挂上前端）</p>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
           <div
-              onClick={() => window.open("TODO")}
+              onClick={() => window.open("https://github.com/SocialAI-tianji/Tianji")}
               className="cursor-pointer"
             >
               <img
@@ -115,7 +115,7 @@ export default function Practice() {
                 className="w-full"
                 alt=""
               />
-              <p className="text-base pt-8">大模型幻觉？利用知识库解答一切来事儿问题</p>
+              <p className="text-base pt-8">大模型幻觉？利用知识库解答一切来事儿问题（几天后开源）</p>
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function Practice() {
               className="cursor-pointer"
             >
               <img
-                src={`${basePath}/images/prompt1.jpg`}
+                src={`${basePath}/images/prompt5.png`}
                 className="w-full"
                 alt=""
               />
