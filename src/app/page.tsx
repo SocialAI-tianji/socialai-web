@@ -13,7 +13,7 @@ export default function Home() {
             <img
               aria-hidden="true"
               className="relative z-20 h-full w-full object-cover transition-opacity duration-300 pointer visible opacity-100"
-              src={`${basePath}/images/banner2.jpg`}
+              src={`${basePath}/images/home_image.jpg`}
             />
             {/* <video
               aria-hidden="true"

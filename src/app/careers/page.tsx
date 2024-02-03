@@ -31,7 +31,7 @@ export default function careers() {
                 </figure>
               </div>
               <div className='w-full md:w-1/2 order-1 md:order-2'>
-                <img alt="" src={`${basePath}/images/careers.png`}
+                <img alt="" src={`${basePath}/images/careers.jpg`}
                   className='w-full h-full object-cover '></img>
               </div>
             </div>
