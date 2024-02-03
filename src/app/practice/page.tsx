@@ -1,5 +1,5 @@
 "use client";
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Practice() {
   return (
     <div className="bg-black text-white">
@@ -15,7 +15,11 @@ export default function Practice() {
           </p>
         </header>
         <div className="mt-8 mb-8">
-          <img src={`${basePath}/images/banner1.jpg`} className="h-full w-full" alt="" />
+          <img
+            src={`${basePath}/images/banner1.jpg`}
+            className="h-full w-full"
+            alt=""
+          />
         </div>
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
@@ -25,20 +29,39 @@ export default function Practice() {
             </p>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img src={`${basePath}/images/prompt1.jpg`} className="w-full" alt="" />
+            <div
+              onClick={() => window.open("http://120.76.130.14:6006/prompt/")}
+              className="cursor-pointer"
+            >
+              <img
+                src={`${basePath}/images/prompt1.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/images/prompt2.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt2.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/images/prompt3.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt3.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/images/prompt4.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt4.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
@@ -53,7 +76,11 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src={`${basePath}/images/prompt1.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt1.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
@@ -80,7 +107,11 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src={`${basePath}/images/prompt1.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt1.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
@@ -107,7 +138,11 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src={`${basePath}/images/prompt1.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt1.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
@@ -134,7 +169,11 @@ export default function Practice() {
           </div>
           <div className="grid grid-cols-4 gap-4">
             <div>
-              <img src={`${basePath}/images/prompt1.jpg`} className="w-full" alt="" />
+              <img
+                src={`${basePath}/images/prompt1.jpg`}
+                className="w-full"
+                alt=""
+              />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
