@@ -20,7 +20,7 @@ export default function careers() {
                     语言艺术研究工程师<br/>    
                     说好话核心技术专家<br/><br/>  
                     我们期待优秀的你加入，<br/>
-                    享受远程办公和元宇宙敬酒的快乐<br/>   
+                    享受远程办公和远程敬酒的快乐<br/>   
                     </p>
                   </blockquote>
                   
