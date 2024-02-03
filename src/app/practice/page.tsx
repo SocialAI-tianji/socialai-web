@@ -27,15 +27,15 @@ export default function Practice() {
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/prompt2.jpg`} className="w-full" alt="" />
+              <img src={`${basePath}/images/prompt2.jpg`} className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/prompt3.jpg`} className="w-full" alt="" />
+              <img src={`${basePath}/images/prompt3.jpg`} className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
             <div>
-              <img src={`${basePath}/prompt4.jpg`} className="w-full" alt="" />
+              <img src={`${basePath}/images/prompt4.jpg`} className="w-full" alt="" />
               <p className="text-base pt-2">此礼非礼，直击人心</p>
             </div>
           </div>
