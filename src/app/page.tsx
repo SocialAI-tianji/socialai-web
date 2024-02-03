@@ -10,7 +10,12 @@ export default function Home() {
           className="relative -mt-20 h-screen w-full md:-mt-16"
         >
           <div className="relative h-full w-full">
-            <video
+            <img
+              aria-hidden="true"
+              className="relative z-20 h-full w-full object-cover transition-opacity duration-300 pointer visible opacity-100"
+              src={`${basePath}/images/banner2.jpg`}
+            />
+            {/* <video
               aria-hidden="true"
               className="relative z-20 h-full w-full object-cover transition-opacity duration-300 pointer visible opacity-100"
               autoPlay
@@ -22,7 +27,7 @@ export default function Home() {
                 type="video/mp4"
               />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
           <div
             className="absolute top-0 right-0 bottom-0 left-0 z-20 bg-[rgba(0,0,0,0.56)]"
