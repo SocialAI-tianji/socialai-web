@@ -13,6 +13,8 @@ export default function Practice() {
             <br></br>
             来事儿AI构建并开源了常见的大模型应用范例，涉及prompt、Agent、知识库、模型训练。您可以在本网页下找到对应的试用链接。
             <br></br>
+            我们致力于搜集并清洗所有有关“如何会来事”的语料，并全部开源，加速人工智能早日掌握这一“核心竞争力”.
+            <br></br>
             <br></br>
             <a href="https://github.com/SocialAI-tianji/Tianji" target="_blank" rel="noopener noreferrer">
               如果喜欢，<br></br>
