@@ -1,5 +1,5 @@
 "use client";
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 export default function Practice() {
   return (
     <div className="bg-black text-white">
@@ -12,7 +12,7 @@ export default function Practice() {
           </p>
         </header>
         <div className="mt-8 mb-8">
-          <img src="/images/banner1.jpg" className="h-full w-full" alt="" />
+          <img src={`${basePath}/images/banner1.jpg`} className="h-full w-full" alt="" />
         </div>
         <div className="border-t pb-20">
           <div className="flex justify-between pt-4 pb-4">
